@@ -17,7 +17,7 @@ const CategoryTabs = ({ category, setCategory }: ICategoryTabsProps) => {
           <button
             key={item.label}
             className={clsx(
-              "rounded-lg px-[26px] py-[10px] text-sm font-semibold transition-colors",
+              "rounded-xl px-[26px] py-[10px] text-sm font-semibold transition-colors",
               category === item.value
                 ? "bg-neutral-800 text-white"
                 : "bg-neutral-50 text-neutral-800 hover:bg-neutral-100"
