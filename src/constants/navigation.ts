@@ -1,4 +1,4 @@
-export const headeMenu = [
+export const headerMenu = [
   {
     label: "Home",
     href: "/",
@@ -17,6 +17,21 @@ export const headeMenu = [
   },
   {
     label: "About us",
+    href: "#",
+  },
+]
+
+export const footerMenu = [
+  {
+    label: "Privacy",
+    href: "/",
+  },
+  {
+    label: "Terms & Conditions",
+    href: "#",
+  },
+  {
+    label: "About Us",
     href: "#",
   },
 ]

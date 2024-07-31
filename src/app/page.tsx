@@ -1,3 +1,4 @@
+import Footer from "@/components/footer"
 import Header from "@/components/header"
 import BuildYouNFT from "@/components/home/BuildYouNFT"
 import CollectionSection from "@/components/home/CollectionSection"
@@ -14,7 +15,7 @@ export default function Home() {
         <CreateSellSection />
         <BuildYouNFT />
       </section>
-      <footer className="h-10"></footer>
+      <Footer />
     </main>
   )
 }

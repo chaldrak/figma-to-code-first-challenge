@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 import Logo from "@/assets/icons/globe.svg"
-import { headeMenu } from "@/constants/navigation"
+import { headerMenu } from "@/constants/navigation"
 
 const Header = () => {
   return (
@@ -14,7 +14,7 @@ const Header = () => {
             <Image src={Logo} alt="Icon globe" width={500} height={500} />
           </Link>
           <ul className="flex items-center gap-7 text-neutral-700">
-            {headeMenu.map((item) => (
+            {headerMenu.map((item) => (
               <li key={item.label} className="hover:text-neutral-300">
                 <Link href={item.href}>{item.label}</Link>
               </li>
