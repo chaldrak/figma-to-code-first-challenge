@@ -11,13 +11,13 @@ type ICategoryTabsProps = {
 
 const CategoryTabs = ({ category, setCategory }: ICategoryTabsProps) => {
   return (
-    <div className="flex w-full flex-col gap-[10px] md:flex-row md:items-center md:justify-between">
+    <div className="flex w-full flex-col gap-2.5 md:flex-row md:items-center md:justify-between">
       <div className="w-full flex-wrap space-x-2 overflow-x-auto whitespace-nowrap">
         {categories.map((item) => (
           <button
             key={item.label}
             className={clsx(
-              "rounded-xl px-[26px] py-[10px] text-sm font-semibold transition-colors",
+              "rounded-xl px-[26px] py-2.5 text-sm font-semibold transition-colors",
               category === item.value
                 ? "bg-neutral-800 text-white"
                 : "bg-neutral-50 text-neutral-800 hover:bg-neutral-100"

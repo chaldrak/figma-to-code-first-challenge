@@ -12,6 +12,10 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      spacing: {
+        "6.5": "26px",
+        "12.5": "46px",
+      },
       colors: {
         neutral: {
           50: "#e8e9ea",
@@ -40,6 +44,9 @@ const config: Config = {
       },
       animation: {
         ressort: "ressort 1s infinite",
+      },
+      screens: {
+        desktop: "1280px",
       },
     },
   },

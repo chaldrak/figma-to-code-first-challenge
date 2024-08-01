@@ -7,10 +7,10 @@ import { footerMenu } from "@/constants/navigation"
 
 const Footer = () => {
   return (
-    <footer className="w-full max-w-7xl px-5 md:px-[46px] lg:px-0">
-      <div className="border-l border-neutral-50 pt-[96px]">
+    <footer className="md:px-12.5 desktop:px-0 w-full max-w-7xl px-5">
+      <div className="border-l border-neutral-50 pt-24">
         <div className="mb-[14px] w-full">
-          <Image src={Logo} alt="Logo" width={500} height={500} className="size-[46px]" />
+          <Image src={Logo} alt="Logo" width={500} height={500} className="size-12.5" />
         </div>
         <div className="flex h-fit flex-col justify-start gap-y-4 border-t py-8 lg:flex-row lg:items-center lg:justify-between">
           <h3 className="text-xl font-semibold text-neutral-600 md:text-2xl">Create Explore & Collect Digital NFTs</h3>

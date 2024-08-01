@@ -18,10 +18,10 @@ const Header = () => {
   }, [open])
 
   return (
-    <header className="relative w-full border-b border-neutral-50 px-5 md:px-[46px] lg:px-0">
+    <header className="md:px-12.5 desktop:px-0 relative w-full border-b border-neutral-50 px-5">
       <div className="mx-auto max-w-7xl border-l border-neutral-50 py-3">
         <nav className="flex h-[76px] items-center justify-between text-base font-semibold">
-          <Link href="/" className="size-[46px]">
+          <Link href="/" className="size-12.5">
             <Image src={Logo} alt="Icon globe" width={500} height={500} />
           </Link>
 
@@ -35,12 +35,12 @@ const Header = () => {
               ))}
             </ul>
             <div className="hidden lg:flex">
-              <Link href="#" className="border-r-2 border-neutral-800 px-[26px] py-1 hover:text-neutral-300">
+              <Link href="#" className="px-6.5 border-r-2 border-neutral-800 py-2.5 hover:text-neutral-300">
                 Sign up
               </Link>
               <button
                 type="button"
-                className="ml-5 rounded-full bg-black px-[26px] py-[10px] text-white hover:bg-neutral-400"
+                className="px-6.5 ml-5 rounded-full bg-black py-2.5 text-white hover:bg-neutral-400"
               >
                 Connect Wallet
               </button>
@@ -64,7 +64,7 @@ const Header = () => {
               open ? "max-w-[346px] md:max-w-[492px] lg:!max-w-0" : "max-w-0"
             )}
           >
-            <div className="size-full border-b border-neutral-50 px-5 md:px-[46px]">
+            <div className="md:px-12.5 size-full border-b border-neutral-50 px-5">
               <div className={clsx(open ? "border-r" : "border-r-0", "border-neutral-50 py-3")}>
                 <div className="flex h-[76px] w-full items-center justify-end">
                   <button
@@ -89,12 +89,12 @@ const Header = () => {
                     ))}
                   </ul>
                   <div className="whitespace-nowrap">
-                    <Link href="#" className="border-r-2 border-neutral-800 px-[26px] py-1 hover:text-neutral-300">
+                    <Link href="#" className="px-6.5 border-r-2 border-neutral-800 py-2.5 hover:text-neutral-300">
                       Sign up
                     </Link>
                     <button
                       type="button"
-                      className="ml-5 rounded-full bg-black px-[26px] py-[10px] text-white hover:bg-neutral-400"
+                      className="px-6.5 ml-5 rounded-full bg-black py-2.5 text-white hover:bg-neutral-400"
                     >
                       Connect Wallet
                     </button>

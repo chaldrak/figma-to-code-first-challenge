@@ -6,8 +6,8 @@ import EllipseIcon from "@/assets/icons/ellipse-frame.svg"
 
 const HeroSection = () => {
   return (
-    <div className="size-full overflow-hidden pb-[96px] lg:h-[calc(100vh-101px)] lg:pb-0">
-      <div className="relative mx-5 flex h-full flex-col justify-start border-l border-neutral-50 pt-[96px] md:mx-[46px] lg:mx-auto lg:flex-row">
+    <div className="size-full h-full overflow-hidden border-l border-neutral-50 lg:min-h-[calc(100vh-101px)]">
+      <div className="md:mx-12.5 justify-star desktop:mx-auto lg:mx-12.5 desktop:border-l-0 relative mx-5 flex h-full flex-col border-l py-24 lg:flex-row">
         <div>
           <h1 className="whitespace-nowrap text-5xl text-neutral-600 md:text-8xl lg:text-9xl">
             See the NFT <br /> new world
@@ -15,7 +15,7 @@ const HeroSection = () => {
           <p className="font-neutral-400 mt-[52px] text-base font-semibold">
             Vorem ipsum dolor sit amet, consectetur adipiscing <br /> elit. Etiam eu turpis molestie, di
           </p>
-          <button className="group mt-[26px] flex items-center gap-4">
+          <button className="group mt-6.5 flex items-center gap-4">
             <span className="text-base font-semibold text-neutral-800 group-hover:text-neutral-400">Discover Now</span>
             <Image
               src={ArrowIcon}
