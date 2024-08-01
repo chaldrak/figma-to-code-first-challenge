@@ -12,7 +12,7 @@ type ICategoryTabsProps = {
 const CategoryTabs = ({ category, setCategory }: ICategoryTabsProps) => {
   return (
     <div className="flex items-center justify-between">
-      <div className="space-x-2">
+      <div className="flex-wrap space-x-2 whitespace-normal">
         {categories.map((item) => (
           <button
             key={item.label}

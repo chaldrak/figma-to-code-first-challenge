@@ -7,13 +7,13 @@ import { headerMenu } from "@/constants/navigation"
 
 const Header = () => {
   return (
-    <header className="w-full border-b border-neutral-50">
+    <header className="w-full border-b border-neutral-50 px-5 md:px-[36px] lg:px-0">
       <div className="mx-auto max-w-7xl border-l border-neutral-50 py-3">
         <nav className="flex h-[76px] items-center justify-between text-base font-semibold">
           <Link href="/" className="size-[36px]">
             <Image src={Logo} alt="Icon globe" width={500} height={500} />
           </Link>
-          <ul className="flex items-center gap-7 text-neutral-700">
+          <ul className="hidden items-center gap-7 text-neutral-700 lg:flex">
             {headerMenu.map((item) => (
               <li key={item.label} className="hover:text-neutral-300">
                 <Link href={item.href}>{item.label}</Link>

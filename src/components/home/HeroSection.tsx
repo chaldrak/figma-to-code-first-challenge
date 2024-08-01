@@ -5,7 +5,7 @@ import ArrowIcon from "@/assets/icons/arrow-circle.svg"
 
 const HeroSection = () => {
   return (
-    <div className="relative my-[93px] flex w-full">
+    <div className="flex-cols relative mx-[36px] flex min-h-[calc(100vh-100px)] w-full border-l border-neutral-50 pt-[96px] lg:mx-auto lg:flex-row">
       <div>
         <h1 className="whitespace-nowrap text-9xl text-neutral-600">
           See the NFT <br /> new world
