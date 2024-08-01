@@ -18,10 +18,10 @@ const Header = () => {
   }, [open])
 
   return (
-    <header className="relative w-full border-b border-neutral-50 px-5 md:px-[36px] lg:px-0">
+    <header className="relative w-full border-b border-neutral-50 px-5 md:px-[46px] lg:px-0">
       <div className="mx-auto max-w-7xl border-l border-neutral-50 py-3">
         <nav className="flex h-[76px] items-center justify-between text-base font-semibold">
-          <Link href="/" className="size-[36px]">
+          <Link href="/" className="size-[46px]">
             <Image src={Logo} alt="Icon globe" width={500} height={500} />
           </Link>
 
@@ -64,7 +64,7 @@ const Header = () => {
               open ? "max-w-[346px] md:max-w-[492px] lg:!max-w-0" : "max-w-0"
             )}
           >
-            <div className="size-full border-b border-neutral-50 px-5 md:px-[36px]">
+            <div className="size-full border-b border-neutral-50 px-5 md:px-[46px]">
               <div className={clsx(open ? "border-r" : "border-r-0", "border-neutral-50 py-3")}>
                 <div className="flex h-[76px] w-full items-center justify-end">
                   <button
