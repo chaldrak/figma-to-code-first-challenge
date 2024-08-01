@@ -11,8 +11,8 @@ type ICategoryTabsProps = {
 
 const CategoryTabs = ({ category, setCategory }: ICategoryTabsProps) => {
   return (
-    <div className="flex items-center justify-between">
-      <div className="flex-wrap space-x-2 whitespace-normal">
+    <div className="flex w-full flex-col gap-[10px] md:flex-row md:items-center md:justify-between">
+      <div className="w-full flex-wrap space-x-2 overflow-x-auto whitespace-nowrap">
         {categories.map((item) => (
           <button
             key={item.label}
@@ -28,7 +28,7 @@ const CategoryTabs = ({ category, setCategory }: ICategoryTabsProps) => {
           </button>
         ))}
       </div>
-      <Link href="#" className="text-sm font-semibold text-neutral-500 underline hover:no-underline">
+      <Link href="#" className="whitespace-nowrap text-sm font-semibold text-neutral-500 underline hover:no-underline">
         View more
       </Link>
     </div>
