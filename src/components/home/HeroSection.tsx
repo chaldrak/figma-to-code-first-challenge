@@ -7,7 +7,7 @@ import EllipseIcon from "@/assets/icons/ellipse-frame.svg"
 const HeroSection = () => {
   return (
     <div className="size-full h-full overflow-hidden border-l border-neutral-50 lg:min-h-[calc(100vh-101px)]">
-      <div className="justify-star relative mx-5 flex h-full flex-col border-l py-24 md:mx-12.5 lg:mx-12.5 lg:flex-row desktop:mx-auto desktop:border-l-0">
+      <div className="relative mx-5 flex h-full flex-col justify-start border-l py-24 md:mx-12.5 lg:mx-12.5 lg:flex-row desktop:mx-auto desktop:border-l-0">
         <div>
           <h1 className="whitespace-nowrap text-5xl text-neutral-600 md:text-8xl lg:text-9xl">
             See the NFT <br /> new world
